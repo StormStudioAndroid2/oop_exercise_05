@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/Рабочий стол/work/lab5/Point.h
+numeric
+-
+iostream
+-
+vector
+-
+cmath
+-
+limits
+-
+
+/home/sergey/Рабочий стол/work/lab5/Rectangle.h
+Point.h
+/home/sergey/Рабочий стол/work/lab5/Point.h
+vector
+-
+
+/home/sergey/Рабочий стол/work/lab5/containers/tree.h
+memory
+-
+exception
+-
+
+/home/sergey/Рабочий стол/work/lab5/main.cpp
+iostream
+-
+string
+-
+algorithm
+-
+containers/tree.h
+/home/sergey/Рабочий стол/work/lab5/containers/tree.h
+Rectangle.h
+/home/sergey/Рабочий стол/work/lab5/Rectangle.h
+

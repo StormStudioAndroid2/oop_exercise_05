@@ -1,0 +1,28 @@
+Rectangle p1: 0 5p1 0 0p2 5 0p3 5 5p4 
+Rectangle p1: 0 3p1 0 0p2 3 0p3 3 3p4 
+Rectangle p1: 0 2p1 0 0p2 2 0p3 2 2p4 
+Rectangle p1: 0 1p1 0 0p2 1 0p3 1 1p4 
+1
+2
+2
+Rectangle p1: 0 5p1 0 0p2 5 0p3 5 5p4 
+
+Rectangle p1: 0 1p1 0 0p2 1 0p3 1 1p4 
+Rectangle p1: 0 5p1 0 0p2 5 0p3 5 5p4 
+Rectangle p1: 0 3p1 0 0p2 3 0p3 3 3p4 
+Rectangle p1: 0 2p1 0 0p2 2 0p3 2 2p4 
+Rectangle p1: 0 1p1 0 0p2 1 0p3 1 1p4 
+
+
+Rectangle p1: 10 0p1 10 10p2 0 10p3 0 0p4 
+Rectangle p1: 0 5p1 0 0p2 5 0p3 5 5p4 
+Rectangle p1: 0 3p1 0 0p2 3 0p3 3 3p4 
+Rectangle p1: 0 2p1 0 0p2 2 0p3 2 2p4 
+Rectangle p1: 0 1p1 0 0p2 1 0p3 1 1p4 
+
+Rectangle p1: 10 0p1 10 10p2 0 10p3 0 0p4 
+Rectangle p1: 0 5p1 0 0p2 5 0p3 5 5p4 
+Rectangle p1: 0 3p1 0 0p2 3 0p3 3 3p4 
+Rectangle p1: 0 2p1 0 0p2 2 0p3 2 2p4 
+Rectangle p1: 0 1p1 0 0p2 1 0p3 1 1p4 
+Rectangle p1: 0 12p1 12 12p2 12 0p3 0 0p4 

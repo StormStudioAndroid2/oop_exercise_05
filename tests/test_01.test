@@ -1,0 +1,11 @@
+push
+1 0 0 1 0 0 1 1
+all
+push
+5 0 0 0 5 5 0 5
+all
+delete
+0
+all
+
+
