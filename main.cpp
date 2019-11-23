@@ -32,6 +32,15 @@ int main() {
             }catch (std::exception& ex){
                 std::cout <<ex.what() << "\n";
             }
+        }if(strcmp(str,"get")==0) {
+            try {
+               int r;
+               std::cin >> r;
+                l[r].print(std::cout);
+                std::cout << "\n";
+            }catch (std::exception& ex){
+                std::cout <<ex.what() << "\n";
+            }
         } else if(strcmp(str,"end")==0){
             try {
                

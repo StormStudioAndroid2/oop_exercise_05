@@ -19,6 +19,8 @@ namespace containers {
     public:
         list() = default;
         T End();
+        T& operator[] (const int index);
+        size_t Size();
         struct forward_iterator {
             using value_type = T;
             using reference = T &;
@@ -80,7 +82,16 @@ namespace containers {
 
 
 //
-    
+template<class T>
+size_t list<T>::Size() {
+    auto it = begin();
+    size_t size1 = 0;
+    while(it!=0) {
+        ++it;
+        size1++;
+    }
+    return size1;
+}
     template<class T>
     typename list<T>::node *list<T>::getTail(containers::list<T>::node *ptr) {
         if ((ptr == nullptr) || (ptr->next == nullptr)) {
@@ -159,7 +170,16 @@ namespace containers {
         forward_iterator result(this->next.get());
         return result;
     }
+template<class T>
+T&  list<T>::operator[] (const int index) {
+    if (index>Size()) {
+            throw std::logic_error("invalid index");
 
+    }
+    auto it = this->begin()+index;
+    return *it;
+}
+ 
     template<class T>
     list<T>::forward_iterator::forward_iterator(node *ptr): ptr_{ptr} {}
 
